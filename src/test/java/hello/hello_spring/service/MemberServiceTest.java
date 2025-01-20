@@ -30,7 +30,7 @@ class MemberServiceTest {
     }
 
     @Test
-    void join() {
+    void joinTest() {
         //given
         Member member = new Member();
         member.setName("same");
@@ -45,7 +45,7 @@ class MemberServiceTest {
     }
 
     @Test
-    public void 중복_회원_예외() {
+    public void validateDuplicateMemberTest() {
         //given
         Member member1 = new Member();
         member1.setName("same");
